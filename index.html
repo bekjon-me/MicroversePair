@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
+    <header id="header">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#jobs">Jobs</a>
+        <a class="nav-link" href="#about">About us</a>
+      </nav>
+      <img
+        id="header-img"
+        src="https://www.codeyourbusiness.com/img/logo.jpg"
+        width="100px"
+        height="100px"
+        alt="CompanyLogo"
+      />
+    </header>
 
-    Hello Camper!
+    <iframe
+      id="video"
+      src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
+      frameborder="0"
+    ></iframe>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+    <form id="form" action="">
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+      />
+      <input type="submit" id="submit" />
+    </form>
 
-    - The freeCodeCamp Team
+    <section id="home"></section>
+    <section id="jobs"></section>
+    <section id="about"></section>
 
-    -->
-    <script  src="js/index.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

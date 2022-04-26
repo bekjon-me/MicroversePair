@@ -1,0 +1,19 @@
+#nav-bar {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  color: #fff;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+#form {
+    margin-bottom: 40rem;
+}
+@media screen and (max-width:767px) {
+    
+}
